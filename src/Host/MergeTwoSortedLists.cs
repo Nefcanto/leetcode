@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-public class Solution
+public class MergeTwoSortedLists
 {
     public ListNode MergeTwoLists(ListNode l1, ListNode l2)
     {

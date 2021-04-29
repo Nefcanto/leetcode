@@ -6,7 +6,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().MergeTwoLists(null, null);
+            var result = new RemoveDuplicatesFromSortedArray().RemoveDuplicates(new int[] { 1, 2, 2 });
         }
     }
 }
