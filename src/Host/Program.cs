@@ -6,7 +6,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new ValidParantheses().IsValid("[])");
+            var result = new Solution().MergeTwoLists(null, null);
         }
     }
 }
