@@ -6,7 +6,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new ImplementStrStr().StrStr("aaa", "aaaa");
+            var result = new SearchInsertPosition().SearchInsert(new int[] { 1, 3, 5, 6 }, 2);
         }
     }
 }
