@@ -1,6 +1,6 @@
-﻿public class Solution
+﻿public class LengthOfLastWord
 {
-    public int LengthOfLastWord(string s)
+    public int Find(string s)
     {
         s = s.Trim();
         var l = 0;

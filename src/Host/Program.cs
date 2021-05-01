@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().LengthOfLastWord("  ");
+            var result = new PlusOne().Perform(new int[] { 9, 9, 8 });
         }
     }
 }
