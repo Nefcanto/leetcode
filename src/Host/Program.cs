@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Host
 {
@@ -6,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new SearchInsertPosition().SearchInsert(new int[] { 1, 3, 5, 6 }, 2);
+            var result = new Solution().LengthOfLastWord("  ");
         }
     }
 }
