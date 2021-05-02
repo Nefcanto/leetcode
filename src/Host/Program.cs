@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new OneBitAndTwoBitCharacters().IsOneBitCharacter(new int[] { 1, 0, 0 });
+            var result = new AddDigits().Add(38);
         }
     }
 }
