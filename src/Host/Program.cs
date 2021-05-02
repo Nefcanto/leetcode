@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new AddBinary().Add("1010", "1011");
+            var result = new OneBitAndTwoBitCharacters().IsOneBitCharacter(new int[] { 1, 0, 0 });
         }
     }
 }
