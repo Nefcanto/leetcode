@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 
-public class Solution
+public class RemoveDuplicatesFromSortedList
+
 {
     public ListNode DeleteDuplicates(ListNode head)
     {

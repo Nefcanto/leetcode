@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().DeleteDuplicates(new ListNode { val = 1, next = new ListNode { val = 1, next = new ListNode { val = 2 } } });
+            var result = new RemoveDuplicatesFromSortedList().DeleteDuplicates(new ListNode { val = 1, next = new ListNode { val = 1, next = new ListNode { val = 2 } } });
         }
     }
 }
