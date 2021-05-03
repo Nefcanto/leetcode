@@ -7,7 +7,6 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new AddDigits().Add(38);
         }
     }
 }
