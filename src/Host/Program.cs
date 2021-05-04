@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().IsSameTree(new TreeNode(0, new TreeNode(-5)), new TreeNode(0, new TreeNode(-8)));
+            var result = new SymmetricTree().IsSymmetric(new TreeNode(1, new TreeNode(2), new TreeNode(3)));
         }
     }
 }

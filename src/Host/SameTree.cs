@@ -1,4 +1,4 @@
-﻿public class Solution
+﻿public class SameTree
 {
     public bool IsSameTree(TreeNode p, TreeNode q)
     {
