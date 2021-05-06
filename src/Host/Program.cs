@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new DefangingAnIpAddress().DefangIPaddr("1.1.1.1");
+            var result = new Solution().NumRookCaptures(new char[][] { new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', 'p', '.', '.', '.', '.' }, new char[] { '.', '.', '.', 'R', '.', '.', '.', 'p' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', 'p', '.', '.', '.', '.' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' } });
         }
     }
 }
