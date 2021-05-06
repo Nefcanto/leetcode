@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new PascalTriangleTwo().GetRow(2);
+            var result = new Solution().MaxProfit(new int[] { 2, 4, 1 });
         }
     }
 }
