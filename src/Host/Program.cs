@@ -7,9 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var solution = new GuessNumberHigherOrLower();
-            solution.Target = 50;
-            var result = solution.GuessNumber(1000);
+            var result = new Solution().FindMaxConsecutiveOnes(new int[] { 1, 1, 0, 1, 1, 1 });
         }
     }
 }
