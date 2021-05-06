@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new PascalTriangle().Generate(5);
+            var result = new PascalTriangleTwo().GetRow(2);
         }
     }
 }
