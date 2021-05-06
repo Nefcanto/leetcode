@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new SingleNumber().Find(new int[] { 2, 2, 1 });
+            var result = new ConvertBinaryNumberInALinkedListToInteger().GetDecimalValue(new ListNode(1));
         }
     }
 }
