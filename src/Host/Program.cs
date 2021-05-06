@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new ValidPalindrome().IsPalindrome("A man, a plan, a canal: Panama");
+            var result = new SingleNumber().Find(new int[] { 2, 2, 1 });
         }
     }
 }
