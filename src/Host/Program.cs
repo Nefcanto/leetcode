@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().MaxProfit(new int[] { 2, 4, 1 });
+            var result = new ValidPalindrome().IsPalindrome("A man, a plan, a canal: Panama");
         }
     }
 }
