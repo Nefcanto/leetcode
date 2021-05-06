@@ -7,7 +7,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new ConvertBinaryNumberInALinkedListToInteger().GetDecimalValue(new ListNode(1));
+            var result = new DefangingAnIpAddress().DefangIPaddr("1.1.1.1");
         }
     }
 }
