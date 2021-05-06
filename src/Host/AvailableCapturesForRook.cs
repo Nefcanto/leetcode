@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-public class Solution
+public class AvailableCapturesForRook
 {
     public int NumRookCaptures(char[][] board)
     {

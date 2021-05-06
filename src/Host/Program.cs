@@ -7,7 +7,9 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().NumRookCaptures(new char[][] { new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', 'p', '.', '.', '.', '.' }, new char[] { '.', '.', '.', 'R', '.', '.', '.', 'p' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', 'p', '.', '.', '.', '.' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' }, new char[] { '.', '.', '.', '.', '.', '.', '.', '.' } });
+            var solution = new GuessNumberHigherOrLower();
+            solution.Target = 50;
+            var result = solution.GuessNumber(1000);
         }
     }
 }
