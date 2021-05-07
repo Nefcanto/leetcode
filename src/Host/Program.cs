@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Host
 {
@@ -10,7 +11,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new CrawlerLogFolder().MinOperations(new string[] { "d1/", "d2/", "../", "d21/", "./" });
+            var result = new Solution().CountBinarySubstrings("00110011");
         }
     }
 }
