@@ -11,7 +11,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().CountBinarySubstrings("00110011");
+            var result = new Solution().FindTheDifference("aa", "aaa");
         }
     }
 }
