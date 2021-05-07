@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Linq;
+using System.Text;
 
 namespace Host
 {
@@ -7,7 +9,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().FindMaxConsecutiveOnes(new int[] { 1, 1, 0, 1, 1, 1 });
+            var result = new DecryptStringFromAlphabetToIntegerMapping().FreqAlphabets("1326#");
         }
     }
 }
