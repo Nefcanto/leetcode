@@ -10,7 +10,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new CalculateMoneyInLeetCodeBank().TotalMoney(20);
+            var result = new CrawlerLogFolder().MinOperations(new string[] { "d1/", "d2/", "../", "d21/", "./" });
         }
     }
 }
