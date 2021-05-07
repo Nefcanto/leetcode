@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new PartitionArrayIntoThreePartsWithEqualSum().CanThreePartsEqualSum(File.ReadAllText(@"C:\Temp\Numbers.txt").Split(',').Select(i => Convert.ToInt32(i)).ToArray());
+            var result = new ImageSmoother().MakeSmooth(new int[][] { new int[] { 2, 3, 4 }, new int[] { 5, 6, 7 }, new int[] { 8, 9, 10 }, new int[] { 11, 12, 13 }, new int[] { 14, 15, 16 } });
         }
     }
 }
