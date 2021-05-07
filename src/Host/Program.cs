@@ -12,7 +12,8 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new MaximumNumberOfNonOverlappingSubarraysWithSumEqualsTarget().MaxNonOverlapping(new int[] { -1, 3, 5, 1, 4, 2, -9 }, 6);
+            var result = new CheckIfOneStringSwapCanMakeStringsEqual().AreAlmostEqual("bank",
+"kanb");
         }
     }
 }
