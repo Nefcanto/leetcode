@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class Solution
+public class GoalParserInterpretation
 {
     public string Interpret(string command)
     {

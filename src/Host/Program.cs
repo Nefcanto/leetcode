@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new ImageSmoother().MakeSmooth(new int[][] { new int[] { 2, 3, 4 }, new int[] { 5, 6, 7 }, new int[] { 8, 9, 10 }, new int[] { 11, 12, 13 }, new int[] { 14, 15, 16 } });
+            var result = new MaximumNumberOfNonOverlappingSubarraysWithSumEqualsTarget().MaxNonOverlapping(new int[] { -1, 3, 5, 1, 4, 2, -9 }, 6);
         }
     }
 }
