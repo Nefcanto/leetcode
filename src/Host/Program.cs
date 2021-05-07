@@ -11,7 +11,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().FindTheDifference("aa", "aaa");
+            var result = new FindTheDifference().Find("riodoglbempeioycorotortsraxgrnsgsautaeletmneerdtmuadaevfylsmedwtoerodlftasretftgeshafnemestlaoearmuttcrpryelefplartuodirfeturntygttaslreyiesdhauegerdotrilrsxeaiegaarlemtanwaoycrmlmhehdautnalopheeulueawtmenepurnbneeaernlnierhnetoodeeasolnvjvoollrjsierseyueettsmxsnnsootlortdrejoayetpodrrvrdtnroatrddeeteehetraugssdlsnsperilmusrnconriyarmerfflehoeeoewnseerlilesrejtlpaeetelieetuxlredtaitlrstttmbeoidntribuiyrnelu", "ayrsgdouuttoietpaeeoyfnbtelrtdetrneeeaeseromrfretseslnnrlortstlaedtlumraoimranooereesiotueeneyftweedtytldsxrmyrvduuomsyeoedfauomeurreepetneirhsanersliriisiwrsnamvodsaesottaeaeouellectafererbmireteditoiimmdwranietstdeeorttfahaylselallerletrrrgfrgaheitgfoaaseeptuegonglljxsbohchgrlteyyjuttarinesserrrdlrntanjbthellepeymmdujvnlslrddolatlrptheopgwoscotdnnlnprordrenxuusoasetnatarhsnemtcrotilrueaeoertmeneladxplvueee");
         }
     }
 }

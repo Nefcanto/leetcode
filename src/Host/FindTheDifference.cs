@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 
-public class Solution
+public class FindTheDifference
 {
-    public char FindTheDifference(string s, string t)
+    public char Find(string s, string t)
     {
         for (int i = 0; i < t.Length; i++)
         {
