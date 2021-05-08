@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new RunningSumOfOneDimensionalArray().RunningSum(new int[] { 1, 1, 1, 1 });
+            var result = new NumberOfRectanglesThatCanFormTheLargestSquare().CountGoodRectangles(new int[][] { new int[] { 5, 8 }, new int[] { 3, 9 }, new int[] { 5, 12 }, new int[] { 16, 5 } });
         }
     }
 }
