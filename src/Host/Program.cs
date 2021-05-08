@@ -12,8 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new CheckIfOneStringSwapCanMakeStringsEqual().AreAlmostEqual("bank",
-"kanb");
+            var result = new RunningSumOfOneDimensionalArray().RunningSum(new int[] { 1, 1, 1, 1 });
         }
     }
 }
