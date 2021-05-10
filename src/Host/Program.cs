@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new MaximumUnitsOnATruck().MaximumUnits(new int[][] { new int[] { 5, 10 }, new int[] { 2, 5 }, new int[] { 4, 7 }, new int[] { 3, 9 } }, 10);
+            var result = new Solution().GetIntersectionNode(new ListNode(4, new ListNode(1, new ListNode(8, new ListNode(4, new ListNode(5))))), new ListNode(5, new ListNode(6, new ListNode(1, new ListNode(8, new ListNode(4, new ListNode(5)))))));
         }
     }
 }
