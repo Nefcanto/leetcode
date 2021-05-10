@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().CreateTargetArray(new int[] { 0, 1, 2, 3, 4 }, new int[] { 0, 1, 2, 2, 1 });
+            var result = new CreateTargetArrayInTheGivenOrder().CreateTargetArray(new int[] { 0, 1, 2, 3, 4 }, new int[] { 0, 1, 2, 2, 1 });
         }
     }
 }
