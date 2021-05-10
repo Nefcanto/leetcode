@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class Solution
+public class NextGreaterElementOne
 {
     public int[] NextGreaterElement(int[] nums1, int[] nums2)
     {

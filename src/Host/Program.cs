@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new NumberOfRectanglesThatCanFormTheLargestSquare().CountGoodRectangles(new int[][] { new int[] { 5, 8 }, new int[] { 3, 9 }, new int[] { 5, 12 }, new int[] { 16, 5 } });
+            new Solution().DuplicateZeros(new int[] { 1, 2 });
         }
     }
 }
