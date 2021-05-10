@@ -12,8 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            new DuplicateZeros().DuplicateZeros(new int[] { 1, 0, 2, 3, 0, 4, 5, 0 });
-            // 1, 0, 0, 4, 3, 5, 0, 0, 7, 2
+            var result = new Solution().CreateTargetArray(new int[] { 0, 1, 2, 3, 4 }, new int[] { 0, 1, 2, 2, 1 });
         }
     }
 }
