@@ -5,23 +5,18 @@ public class IntersectionOfTwoLinkedLists
     public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
     {
         var distinctA = new HashSet<int>();
-        var nodeA = headA;
-        var nodeB = headB;
-        while (nodeA != null)
+        while (headA != null)
         {
-            if (!distinctA.Contains(nodeA.val))
-            {
-                distinctA.Add(nodeA.GetHashCode());
-            }
-            nodeA = nodeA.next;
+            distinctA.Add(headA.GetHashCode());
+            headA = headA.next;
         }
-        while (nodeB != null)
+        while (headB != null)
         {
-            if (distinctA.Contains(nodeB.GetHashCode()))
+            if (distinctA.Contains(headB.GetHashCode()))
             {
-                return nodeB;
+                return headB;
             }
-            nodeB = nodeB.next;
+            headB = headB.next;
         }
         return null;
     }
