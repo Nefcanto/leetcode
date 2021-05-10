@@ -15,4 +15,22 @@ public class MakeTwoArraysEqualByReversingSubArrays
         }
         return true;
     }
+
+    public bool Faster(int[] target, int[] arr)
+    {
+        var countMap = new int[1001];
+        for (int i = 0; i < target.Length; i++)
+        {
+            countMap[target[i]]++;
+            countMap[arr[i]]--;
+        }
+        for (int i = 0; i < countMap.Length; i++)
+        {
+            if (countMap[i] != 0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
 }
