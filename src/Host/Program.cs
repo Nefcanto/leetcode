@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new IntersectionOfTwoLinkedLists().GetIntersectionNode(new ListNode(4, new ListNode(1, new ListNode(8, new ListNode(4, new ListNode(5))))), new ListNode(5, new ListNode(6, new ListNode(1, new ListNode(8, new ListNode(4, new ListNode(5)))))));
+            var result = new MinimumCostToMoveChipsToTheSamePosition().MinCostToMoveChips(new int[] { 6, 4, 7, 8, 2, 10, 2, 7, 9, 7 });
         }
     }
 }
