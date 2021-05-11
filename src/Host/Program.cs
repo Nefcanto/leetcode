@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new MinimumCostToMoveChipsToTheSamePosition().MinCostToMoveChips(new int[] { 6, 4, 7, 8, 2, 10, 2, 7, 9, 7 });
+            var result = new Solution().IsBoomerang(new int[][] { new int[] { 1, 1 }, new int[] { 2, 2, }, new int[] { 7, 7 } });
         }
     }
 }
