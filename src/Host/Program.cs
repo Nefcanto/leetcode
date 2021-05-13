@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new SecondMinimumNodeInABinaryTree().FindSecondMinimumValue(new TreeNode(2, new TreeNode(2), new TreeNode(5, new TreeNode(5), new TreeNode(7))));
+            var result = new SortArrayByParity().NotInPlaceButFast(new int[] { 1, 3, 2, 4, 4, 2, 3, 4, 6, 44, 5, 6 });
         }
     }
 }
