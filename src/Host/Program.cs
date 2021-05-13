@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().IsBoomerang(new int[][] { new int[] { 1, 1 }, new int[] { 2, 2, }, new int[] { 7, 7 } });
+            var result = new SecondMinimumNodeInABinaryTree().FindSecondMinimumValue(new TreeNode(2, new TreeNode(2), new TreeNode(5, new TreeNode(5), new TreeNode(7))));
         }
     }
 }

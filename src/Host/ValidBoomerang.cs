@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 
 // not working for [[1,1],[2,2],[7,7]]
-public class Solution
+// not working for [[0,1],[2,1],[0,0]]
+public class ValidBoomerang
 {
     public bool IsBoomerang(int[][] points)
     {
