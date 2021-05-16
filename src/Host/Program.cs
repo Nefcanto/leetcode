@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new NumberOfStudentsUnableToEatLaunch().CountStudents(new int[] { 1, 1, 1, 0, 0, 1 }, new int[] { 1, 0, 0, 0, 1, 1 });
+            var result = new Solution().IsSubsequence("aaaaaa", "bbaaaa");
         }
     }
 }

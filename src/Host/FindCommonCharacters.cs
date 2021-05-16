@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class Solution
+public class FindCommonCharacters
 {
     public IList<string> CommonChars(string[] words)
     {
