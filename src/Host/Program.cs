@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new Solution().IsSubsequence("aaaaaa", "bbaaaa");
+            var result = new IsSubsequence().Check("aaaaaa", "bbaaaa");
         }
     }
 }

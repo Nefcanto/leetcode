@@ -1,6 +1,6 @@
-﻿public class Solution
+﻿public class IsSubsequence
 {
-    public bool IsSubsequence(string s, string t)
+    public bool Check(string s, string t)
     {
         var lastIndex = 0;
         for (int i = 0; i < s.Length; i++)
