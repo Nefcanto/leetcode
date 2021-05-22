@@ -1,4 +1,6 @@
-public class PerfectNumber.cs {
+using System.List.Generics;
+
+public class PerfectNumber {
     public bool CheckPerfectNumber(int num) {
         if (num == 1) {
             return false;
