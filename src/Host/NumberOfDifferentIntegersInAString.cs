@@ -7,3 +7,38 @@ public class Solution
         return count;
     }
 }
+public class Solution
+{
+    HashSet<string> numbers = new HashSet<string>();
+
+    public int NumDifferentIntegers(string word)
+    {
+        var number = "";
+        for (int i = 0; i < word.Length; i++)
+        {
+            if (char.IsNumber(word[i]))
+            {
+                number += word[i].ToString();
+            }
+            else
+            {
+                AddNumber(number);
+                number = "";
+            }
+        }
+        AddNumber(number);
+        return numbers.Count;
+    }
+
+    public void AddNumber(string number)
+    {
+        if (number != "0")
+        {
+            number = number.TrimStart('0');
+        }
+        if (number != "" && !numbers.Contains(number))
+        {
+            numbers.Add(number);
+        }
+    }
+}
