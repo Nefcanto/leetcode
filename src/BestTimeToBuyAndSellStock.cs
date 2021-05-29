@@ -31,7 +31,7 @@
 /*
 very slow
 
-public class Solution {
+public class BestTimeToBuyAndSellStock {
     public int MaxProfit(int[] prices) {
         var max = 0;
         for (int i = 0; i < prices.Length; i++) {

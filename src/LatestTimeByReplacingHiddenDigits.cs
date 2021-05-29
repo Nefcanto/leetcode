@@ -1,4 +1,4 @@
-public class Solution
+public class LatestTimeByReplacingHiddenDigits
 {
     public string MaximumTime(string time)
     {

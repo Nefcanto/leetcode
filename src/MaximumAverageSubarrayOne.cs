@@ -1,6 +1,6 @@
 // not efficient => times out for large arrays
 
-public class Solution
+public class MaximumAverageSubarrayOne
 {
     public double FindMaxAverage(int[] nums, int k)
     {

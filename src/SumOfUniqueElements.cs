@@ -1,12 +1,17 @@
-public class Solution {
-    public int SumOfUnique(int[] nums) {
+public class SumOfUniqueElements
+{
+    public int SumOfUnique(int[] nums)
+    {
         var uniques = new HashSet<int>();
         var duplicates = new HashSet<int>();
-        for (int i = 0; i < nums.Length; i++) {
-            if (uniques.Contains(nums[i])) {
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (uniques.Contains(nums[i]))
+            {
                 duplicates.Add(nums[i]);
             }
-            else {
+            else
+            {
                 uniques.Add(nums[i]);
             }
         }

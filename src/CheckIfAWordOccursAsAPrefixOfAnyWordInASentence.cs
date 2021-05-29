@@ -1,4 +1,4 @@
-public class Solution
+public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentence
 {
     public int IsPrefixOfWord(string sentence, string searchWord)
     {

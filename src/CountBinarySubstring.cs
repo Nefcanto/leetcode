@@ -1,9 +1,9 @@
 ﻿
 
 // slow
-//public class Solution
+//public class CountBinarySubstring
 //{
-//    public int CountBinarySubstrings(string s)
+//    public int Count(string s)
 //    {
 //        var num = 1;
 //        var oldCount = -1;
@@ -59,9 +59,9 @@
 // slow
 //using System.Text.RegularExpressions;
 
-//public class Solution
+//public class CountBinarySubstring
 //{
-//    public int CountBinarySubstrings(string s)
+//    public int Count(string s)
 //    {
 //        var oldCount = 0;
 //        int count = 0;

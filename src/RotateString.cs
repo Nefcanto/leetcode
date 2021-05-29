@@ -1,6 +1,6 @@
-public class Solution
+public class RotateString
 {
-    public bool RotateString(string s, string goal)
+    public bool Rotate(string s, string goal)
     {
         if (string.IsNullOrEmpty(s))
         {

@@ -1,4 +1,4 @@
-public class Solution
+public class SignOfTheProductOfAnArray
 {
     public int ArraySign(int[] nums)
     {

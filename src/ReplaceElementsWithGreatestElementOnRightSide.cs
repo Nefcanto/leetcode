@@ -1,4 +1,4 @@
-public class Solution
+public class ReplaceElementsWithGreatestElementOnRightSide
 {
     public int[] ReplaceElements(int[] arr)
     {

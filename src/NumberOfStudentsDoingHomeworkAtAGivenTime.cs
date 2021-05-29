@@ -1,4 +1,4 @@
-public class Solution
+public class NumberOfStudentsDoingHomeworkAtAGivenTime
 {
     public int BusyStudent(int[] startTime, int[] endTime, int queryTime)
     {

@@ -20,7 +20,7 @@ public class FactorialTrailingZeros
 }
 
 // resulting in very big numbers
-//public class Solution
+//public class FactorialTrailingZeros
 //{
 //    public int TrailingZeroes(int n)
 //    {

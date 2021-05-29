@@ -1,0 +1,5 @@
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.csproj.AssemblyReference.cache
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.GeneratedMSBuildEditorConfig.editorconfig
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.AssemblyInfoInputs.cache
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.AssemblyInfo.cs
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.csproj.CoreCompileInputs.cache

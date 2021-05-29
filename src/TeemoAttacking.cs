@@ -1,4 +1,4 @@
-public class Solution
+public class TeemoAttacking
 {
     public int FindPoisonedDuration(int[] timeSeries, int duration)
     {
