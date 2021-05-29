@@ -13,6 +13,7 @@ namespace Host
         static void Main(string[] args)
         {
             var result = new IsSubsequence().Check("aaaaaa", "bbaaaa");
+            Console.ReadLine();
         }
     }
 }
