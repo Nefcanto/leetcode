@@ -1,3 +1,5 @@
+using System.Linq;
+
 public class GenerateAStringWithCharactersThatHaveOddCounts
 {
     public string GenerateTheString(int n)

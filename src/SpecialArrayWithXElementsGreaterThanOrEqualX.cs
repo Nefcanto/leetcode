@@ -1,3 +1,5 @@
+using System.Linq;
+
 // not working
 public class SpecialArrayWithXElementsGreaterThanOrEqualX
 {

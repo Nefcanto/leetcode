@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 public class SumOfUniqueElements
 {
     public int SumOfUnique(int[] nums)

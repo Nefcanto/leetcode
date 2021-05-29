@@ -1,3 +1,5 @@
+using System.Linq;
+
 public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentence
 {
     public int IsPrefixOfWord(string sentence, string searchWord)

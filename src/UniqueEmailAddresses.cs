@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class UniqueEmailAddresses
 {
     public int NumUniqueEmails(string[] emails)

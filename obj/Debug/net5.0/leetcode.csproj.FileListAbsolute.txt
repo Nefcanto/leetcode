@@ -3,3 +3,14 @@
 /nefcanto/leetcode/obj/Debug/net5.0/leetcode.AssemblyInfoInputs.cache
 /nefcanto/leetcode/obj/Debug/net5.0/leetcode.AssemblyInfo.cs
 /nefcanto/leetcode/obj/Debug/net5.0/leetcode.csproj.CoreCompileInputs.cache
+/nefcanto/leetcode/bin/Debug/net5.0/leetcode
+/nefcanto/leetcode/bin/Debug/net5.0/leetcode.deps.json
+/nefcanto/leetcode/bin/Debug/net5.0/leetcode.runtimeconfig.json
+/nefcanto/leetcode/bin/Debug/net5.0/leetcode.runtimeconfig.dev.json
+/nefcanto/leetcode/bin/Debug/net5.0/leetcode.dll
+/nefcanto/leetcode/bin/Debug/net5.0/ref/leetcode.dll
+/nefcanto/leetcode/bin/Debug/net5.0/leetcode.pdb
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.dll
+/nefcanto/leetcode/obj/Debug/net5.0/ref/leetcode.dll
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.pdb
+/nefcanto/leetcode/obj/Debug/net5.0/leetcode.genruntimeconfig.cache

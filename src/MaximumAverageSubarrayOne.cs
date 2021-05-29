@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 // not efficient => times out for large arrays
 
 public class MaximumAverageSubarrayOne

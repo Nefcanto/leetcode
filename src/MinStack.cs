@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 public class MinStack
 {
     int? min = null;

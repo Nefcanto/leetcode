@@ -1,3 +1,5 @@
+using System;
+
 public class ReplaceElementsWithGreatestElementOnRightSide
 {
     public int[] ReplaceElements(int[] arr)

@@ -1,3 +1,6 @@
+using System;
+using System.Linq;
+
 public class TeemoAttacking
 {
     public int FindPoisonedDuration(int[] timeSeries, int duration)

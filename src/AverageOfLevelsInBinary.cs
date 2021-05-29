@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 public class AverageOfLevelsInBinary
 {
     Dictionary<int, List<double>> levels = new Dictionary<int, List<double>>();
