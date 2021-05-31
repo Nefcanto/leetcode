@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new EvaluateReversePolishNotation().EvalRPN(new string[] { "2", "1", "+", "3", "*" });
+            var result = new GroupAnagrams().Group(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
             Console.ReadLine();
         }
     }
