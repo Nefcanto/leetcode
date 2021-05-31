@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new IsSubsequence().Check("aaaaaa", "bbaaaa");
+            var result = new NumberOfGoodPairs().NumIdenticalPairs(new int[] { 1, 1, 1, 1 });
             Console.ReadLine();
         }
     }
