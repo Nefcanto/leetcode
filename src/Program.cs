@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new NumberOfGoodPairs().NumIdenticalPairs(new int[] { 1, 1, 1, 1 });
+            var result = new ReformatDate().Reformat("20th Oct 2052");
             Console.ReadLine();
         }
     }
