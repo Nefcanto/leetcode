@@ -12,7 +12,7 @@ namespace Host
     {
         static void Main(string[] args)
         {
-            var result = new ReformatDate().Reformat("20th Oct 2052");
+            var result = new EvaluateReversePolishNotation().EvalRPN(new string[] { "2", "1", "+", "3", "*" });
             Console.ReadLine();
         }
     }
