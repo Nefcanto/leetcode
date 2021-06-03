@@ -2,6 +2,8 @@ using System.Collections.Generic;
 
 public class LuckyNumbersInAMatrix
 {
+    // slow, and compare it with java solution at https://leetcode.com/problems/lucky-numbers-in-a-matrix/submissions/
+    // 396 ms vs 2 ms
     public IList<int> LuckyNumbers(int[][] matrix)
     {
         var minInRows = new Dictionary<int, int>();
