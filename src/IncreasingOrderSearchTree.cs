@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class Solution
+public class IncreasingOrderSearchTree
 {
     List<int> sorted = new List<int>();
     public TreeNode IncreasingBST(TreeNode root)
